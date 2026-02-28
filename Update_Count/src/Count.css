@@ -1,0 +1,48 @@
+
+.container {
+  height: 30vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightcoral;
+  border-radius: 20px;
+}
+
+
+.count_h1 {
+  font-size: 28px;
+  font-weight: 700;
+ color: rgb(0, 0, 0);
+}
+
+
+.button_div {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #0e57cd;
+  color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #0026ff;
+}
+
+
+button:active {
+  transform: scale(0.92);
+}
